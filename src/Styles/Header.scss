@@ -1,0 +1,36 @@
+.navlink {
+    margin-left: 30px;
+  }
+  
+  .Navbar-color {
+    background: #212731;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    font-size: 20px;
+  }
+  
+  .close-nav {
+    background-color: white !important;
+  }
+  
+  .btn-close {
+    background-color: white !important;
+  }
+  
+  @media (min-width: 768px) {
+    .offcanvas-body {
+      background-color: #212731 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .offcanvas-body {
+      background-color: #212731 !important;
+    }
+  }
+  

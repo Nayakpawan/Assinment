@@ -1,0 +1,184 @@
+$text: #2c384a;
+$background: #e1e4e6;
+$color: #727d87;
+$background-color: #696969;
+$card: #fff;
+$border-color: #898989;
+
+.text-color {
+  color: $text;
+}
+.off {
+  font-size: 11px;
+}
+.linespot {
+  width: 100%;
+  height: 10px;
+  background: $background;
+}
+.horizontal-line {
+  border-bottom: 1px solid $text;
+  width: 100%;
+  display: inline-block;
+  margin: 20px auto;
+}
+.arrow {
+  font-size: 30px;
+}
+.homeline {
+  color: $color;
+}
+.homeline1 {
+  width: 85%;
+  color: $color;
+  cursor: pointer;
+}
+
+.zoom-on-hover {
+  img {
+    transition: transform 0.5s ease;
+  }
+
+  &:hover {
+    img {
+      transform: scale(0.9);
+    }
+  }
+}
+
+.card1 {
+  max-width: 100%;
+  height: 350px;
+  flex-direction: row;
+  background-color: $background-color;
+  border: 0;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+  //   margin: 3em auto;
+}
+.card1.dark {
+  color: $card;
+}
+
+.card1 {
+  &.bg-light-subtle {
+    .card1-title {
+      color: dimgrey;
+    }
+  }
+}
+
+
+.card1 img {
+  width: 30%;
+  margin: auto;
+  padding: 0.5em;
+  border-radius: 0.7em;
+}
+.card1-body {
+  display: flex;
+  justify-content: space-between;
+}
+.text-section {
+  max-width: 60%;
+}
+
+.cta-section {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  .btn {
+    padding: 0.3em 0.5em;
+  }
+}
+
+.card1 {
+  &.bg-light-subtle {
+    .cta-section {
+      .btn {
+        background-color: $border-color;
+        border-color: $border-color;
+      }
+    }
+  }
+}
+
+.Exceptionalbox {
+  width: 135px;
+  height: 118px;
+  border-radius: 0px, 0px, 12px, 12px;
+  background-color: #f3f9ff;
+  margin-left: 45px;
+  margin-top: -24px;
+
+}
+.star {
+  color: #ffb80f;
+}
+.hailite {
+  background-color: #fff4ed;
+}
+.circule {
+  width: 35px;
+  height: 35px;
+  margin-left: -33px;
+  border: $background solid 1px;
+  color: $background;
+  background-color: white;
+  .number {
+    margin-left: 12px;
+  }
+}
+.badge {
+  position: absolute;
+  top: -5%;
+  left: -1px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #ff7724;
+}
+@media screen and (max-width: 475px) {
+  .card1 {
+    font-size: 0.9em;
+  }
+  .badge {
+    margin-top: 33px;
+  }
+  .newbtn {
+    margin-top: 10px !important;
+  }
+  .Exceptionalbox {
+    margin-left: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+}
+.highlight {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  background-color: #fff4ed;
+}
+
+.score {
+  font-weight: bold;
+  color: #1b88f4;
+}
+.Outtext {
+  font-size: 15px;
+}
+.newbtn {
+  margin-top: 196px;
+}
+.offset {
+  border: 1px solid #f2f4f7;
+  color: #074786;
+  // background-color: #F2F4F7;
+}
+.cardbutton{
+  margin-top: 60px;
+}
